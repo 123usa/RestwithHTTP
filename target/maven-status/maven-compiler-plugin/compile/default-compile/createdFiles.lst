@@ -1,0 +1,5 @@
+com\wbl\Rest\App.class
+com\util\Congig.class
+com\util\ResourceUtil.class
+com\util\Configuration.class
+com\wbl\Pojo\PojoClass.class

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.wbl.Test.GitHubTest">
+        <methods>
+          <include name="statusCode"/>
+          <include name="login"/>
+          <include name="afterSuite"/>
+          <include name="beforeclass"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.wbl.Test.GitHubTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
